@@ -9,7 +9,7 @@ function Work() {
               <p className='text-4xl text-center mb-3 font-bold primary-color mt-10'>Work</p>
               <p className='text-gray-400 text-center'> Check out some of my Projects</p>
           </div>
-          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-5 px-5 w-[75%] md:w-[100%] mx-auto'>
+          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-5 px-5 w-[80%] md:w-[100%] mx-auto'>
               <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden 
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div   bg-cover relative  '>
