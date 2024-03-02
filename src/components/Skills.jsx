@@ -1,9 +1,9 @@
 import React from 'react'
-import html from '../assets/html.jpg'
-import css from '../assets/css.jpg'
-import js from '../assets/javascript.jpg'
-import tailwind from '../assets/tailwind.jpg'
-import react from '../assets/react.jpg'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import js from '../assets/javascript.png'
+import tailwind from '../assets/tailwind.png'
+import react from '../assets/react.png'
 function Skills() {
   return (
       <div className="flex flex-col bg-black text-gray-400 md:h-[250px] max-w-[100%] ">
