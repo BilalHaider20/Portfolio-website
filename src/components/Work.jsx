@@ -1,10 +1,7 @@
 import React from 'react'
-import proj1 from '../assets/Natour.png'
+import proj1 from '../assets/Natour.jpg'
 import proj2 from '../assets/Portfolio.jpg'
-import proj3 from '../assets/proj3.png'
-import proj4 from '../assets/proj4.png'
-import proj5 from '../assets/proj5.png'
-import proj6 from '../assets/proj6.png'
+
 function Work() {
   return (
       <div className='max-w-[1200px] mx-auto p-5 bg-black '>
