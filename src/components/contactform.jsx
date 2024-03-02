@@ -1,4 +1,5 @@
 import React from 'react'
+import contactimage from '../assets/contactformimage.jpeg'
 function Contactform() {
   return (
       <div className="mx-auto max-w-7xl px-4 py-10 bg-black">
@@ -22,7 +23,7 @@ function Contactform() {
                   </div>
               </div>
                 
-                  <img alt="Contact us" className=" h-[400px] w-[80%] rounded-lg object-cover md:block hidden" src="src\assets\contactformimage.jpeg" />
+                  <img alt="Contact us" className=" h-[400px] w-[80%] rounded-lg object-cover md:block hidden" src={contactimage} />
                 
             </div>
         </div>
