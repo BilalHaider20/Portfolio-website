@@ -24,9 +24,9 @@ export default function Navbar() {
           <div className={nav ? ' fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':'fixed left-[-100%]'}>
           <h1 class="text-red-500 text-3xl primary-color m-4">Bilal Haider</h1>  
               <ul className='p-8 text-2xl'>
-                  <li className='p-2'><a href="#"></a>About</li>
-                  <li className='p-2'><a href="#"></a>Work</li>
-                  <li className='p-2'><a href="#"></a>Contact</li>
+                  <li className='p-2 hover:text-orange-500'><a href="#"></a>About</li>
+                  <li className='p-2  hover:text-orange-500'><a href="#"></a>Work</li>
+                  <li className='p-2  hover:text-orange-500'><a href="#"></a>Contact</li>
                 </ul>
           </div>
           </div>

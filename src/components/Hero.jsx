@@ -1,7 +1,7 @@
 import React from 'react'
 import profileimage from '../assets/bilal.jpg'
 import { TypeAnimation } from 'react-type-animation'
-// import { ReactSocialMediaIcons } from 'react-social-media-icons';
+import Resume from '../assets/Bilal Resume.pdf'
 
 function Hero() {
   return (
@@ -26,7 +26,7 @@ function Hero() {
                   /> 
               </h1>
               <div className='text-white my-16'>
-                  <a href="#" className='w-full rounded-xl bg-gradient-to-br from-orange-400 to-pink-600
+                  <a href={Resume} download="Bilal Haider Resume" className='w-full rounded-xl bg-gradient-to-br from-orange-400 to-pink-600
                  px-6 py-3 mr-4'>Download Resume</a> 
                   <a href="#" className='w-full rounded-xl bg-gradient-to-br from-gray-600 to-gray-800
                  border-[1.5px] border-l-white
