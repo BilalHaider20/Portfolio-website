@@ -10,14 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^17.0.0",
+    "react": "^16.8.0",
     "react-animation": "^1.2.2",
     "react-animations": "^1.0.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-social-icons": "^6.14.0",
     "react-type-animation": "^3.2.0"
-    
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
