@@ -11,7 +11,7 @@ function Skills() {
           <h2 class="my-[30px] primary-color text-3xl md:text-4xl font-bold mx-auto">
               My Tech Stack 
           </h2>
-      <div className='h-[200px] sm:h-[150px] w-[95%] mx-auto flex flex-row justify-evenly items-center'> 
+      <div className='  w-[95%] mx-auto flex flex-row justify-evenly items-center flex-wrap'> 
       <div className='flex flex-col items-center m-4 w-[80px] '>
         <img src={html} alt="HTML logo" />
         <p >
