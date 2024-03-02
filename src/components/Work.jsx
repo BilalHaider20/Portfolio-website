@@ -29,7 +29,7 @@ function Work() {
                       </div>
                   </div>
               </div>
-              <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj2} layout="fill" objectFit="cover" alt="" />
@@ -45,7 +45,7 @@ function Work() {
                       </div>
                   </div>
               </div>
-              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              {/* <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj3} layout="fill" objectFit="cover" alt="" />
@@ -61,7 +61,7 @@ function Work() {
                       </div>
                   </div>
               </div> */}
-              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              {/* <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj4} layout="fill" objectFit="cover" alt="" />
@@ -77,7 +77,7 @@ function Work() {
                       </div>
                   </div>
               </div> */}
-              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              {/* <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj5} layout="fill" objectFit="cover" alt="" />
@@ -93,7 +93,7 @@ function Work() {
                       </div>
                   </div>
               </div> */}
-              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              {/* <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj6} layout="fill" objectFit="cover" alt="" />
