@@ -1,6 +1,6 @@
 import React from 'react'
-import proj1 from '../assets/proj1.png'
-import proj2 from '../assets/proj2.png'
+import proj1 from '../assets/Natour.png'
+import proj2 from '../assets/Portfolio.jpg'
 import proj3 from '../assets/proj3.png'
 import proj4 from '../assets/proj4.png'
 import proj5 from '../assets/proj5.png'
@@ -13,12 +13,12 @@ function Work() {
               <p className='text-gray-400 text-center'> Check out some of my Projects</p>
           </div>
           <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-5 px-4'>
-              <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              <div className='transform, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj1} layout="fill" objectFit="cover" alt="" />
                   <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                      <span className='text-2xl font-bold text-white -tracking-wider'>Project</span>
+                      <span className='text-2xl font-bold text-white -tracking-wider'>Natour Project</span>
                       <div className='pt-8 text-center'>
                           <a href="#">
                               <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700
@@ -34,7 +34,7 @@ function Work() {
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj2} layout="fill" objectFit="cover" alt="" />
                   <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                      <span className='text-2xl font-bold text-white -tracking-wider'>Project</span>
+                      <span className='text-2xl font-bold text-white -tracking-wider'>Portfolio</span>
                       <div className='pt-8 text-center'>
                           <a href="#">
                               <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700
@@ -45,7 +45,7 @@ function Work() {
                       </div>
                   </div>
               </div>
-              <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj3} layout="fill" objectFit="cover" alt="" />
@@ -60,8 +60,8 @@ function Work() {
                         </a>
                       </div>
                   </div>
-              </div>
-              <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              </div> */}
+              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj4} layout="fill" objectFit="cover" alt="" />
@@ -76,8 +76,8 @@ function Work() {
                         </a>
                       </div>
                   </div>
-              </div>
-              <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              </div> */}
+              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj5} layout="fill" objectFit="cover" alt="" />
@@ -92,8 +92,8 @@ function Work() {
                         </a>
                       </div>
                   </div>
-              </div>
-              <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
+              </div> */}
+              {/* <div className='transfor, transition-transform duration-300 hover:scale-105 overflow-hidden
               shadow-lg shadow-[#40c16] group container rounded-md flex
               justify-center items-center mx-auto content-div h-[200px] bg-cover relative  '>
                   <img src={proj6} layout="fill" objectFit="cover" alt="" />
@@ -108,7 +108,7 @@ function Work() {
                         </a>
                       </div>
                   </div>
-              </div>
+              </div> */}
           </div>
     </div>
   )
