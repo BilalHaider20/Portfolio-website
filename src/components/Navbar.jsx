@@ -21,7 +21,7 @@ export default function Navbar() {
               <div onClick={handleNav} className=" block md:hidden mr-4" >
                   {nav? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
               </div>
-          <div className={nav ? ' fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':'fixed left-[-100%]'}>
+          <div className={nav ? ' fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':' transition-all duration-500 ease-in-out fixed left-[-100%]'}>
           <h1 class="text-red-500 text-3xl primary-color m-4">Bilal Haider</h1>  
               <ul className='p-8 text-2xl'>
                   <li className='p-2 hover:text-orange-500'><a href="#"></a>About</li>
