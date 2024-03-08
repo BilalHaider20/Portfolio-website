@@ -8,7 +8,7 @@ function Hero() {
       <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-[100vw] md:h-screen mx-auto bg-black'>
           <div className='col-span-1 my-auto mx-auto w-[200px] h-auto lg:w-[300px]'>
               
-            <img src={profileimage} alt="Profile Image" className='w-full h-full object-cover rounded-full'/>
+            <img src={profileimage} alt="Profile Image"/>
               
           </div>
           <div className='col-span-2 px-5'> 
