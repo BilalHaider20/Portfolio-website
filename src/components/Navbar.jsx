@@ -12,7 +12,7 @@ export default function Navbar() {
       <div>
           <div className='bg-black h-[100px] text-gray-200 max-w-[100%]
            mx-auto flex justify-between items-center '>
-                <h1 class="text-red-500 text-3xl primary-color font-bold ml-4">Bilal Haider</h1>  
+                <h1 className=" text-3xl primary-color font-bold ml-4">Bilal Haider</h1>  
               <ul className='hidden md:flex mr-10 gap-5'>
                   <li className='p-2 font-bold hover:text-red-500/80 '><a href="#"></a>About</li>
                   <li className='p-2 font-bold hover:text-red-500/80'><a href="#"></a>Work</li>
@@ -22,7 +22,7 @@ export default function Navbar() {
                   {nav? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
               </div>
           <div className={nav ? ' fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':' transition-all duration-500 ease-in-out fixed left-[-100%]'}>
-          <h1 class="text-red-500 text-3xl primary-color m-4">Bilal Haider</h1>  
+          <h1 className=" text-3xl primary-color m-4">Bilal Haider</h1>  
               <ul className='p-8 text-2xl'>
                   <li className='p-2 hover:text-orange-500'><a href="#"></a>About</li>
                   <li className='p-2  hover:text-orange-500'><a href="#"></a>Work</li>

@@ -4,48 +4,43 @@ import css from '../assets/css.png'
 import js from '../assets/javascript.png'
 import tailwind from '../assets/tailwind.png'
 import react from '../assets/react.png'
+import { FaCheckCircle } from "react-icons/fa";
 function Skills() {
-  return (
-      <div className="flex flex-col bg-black text-gray-400 md:h-[250px] max-w-[100%] ">
-          
-          <h2 class="my-[30px] primary-color text-3xl md:text-4xl font-bold mx-auto">
-              My Tech Stack 
-          </h2>
-      <div className='  w-[95%] mx-auto flex flex-row justify-evenly items-center flex-wrap'> 
-      <div className='flex flex-col items-center m-4 w-[80px] '>
-        <img src={html} alt="HTML logo" />
-        <p >
-          HTML
-        </p>
+  
+    
+      const skills = [
+        { name: 'HTML & CSS' , icon: <FaCheckCircle className="h-6 w-6" /> },
+        { name: 'Javascript', icon: <FaCheckCircle className="h-6 w-6" /> },
+        { name: 'React', icon: <FaCheckCircle className="h-6 w-6" /> }, 
+        { name: 'Tailwind CSS', icon: <FaCheckCircle className="h-6 w-6" /> },
+        { name: 'WindowsForm C#', icon: <FaCheckCircle className="h-6 w-6" /> },
+       
+      ];
+    
+      return (
+        <section className="text-white w-full py-12 md:py-24 lg:py-20 ">
+          <div className=" px-4 md:px-6">
+            <div className=' mx-auto' >
+              <div className="space-y-4 text-center">
+                <h2 className="text-3xl font-bold sm:text-5xl primary-color py-4">My Skills</h2>
+                <p className="p-5 mx-auto max-w-[800px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                  I'm experienced in a variety of programming languages and frameworks. Here are a few of my top skills.
+                </p>
+              </div>
+    
+              <div className="grid max-w-3xl gap-4 min-[400px]:grid-cols-2 lg:gap-2 md:max-w-[80%]  mx-auto">
+                {skills.map((skill) => (
+                  <div key={skill.name} className="flex items-center space-x-2 p-3">
+                    {skill.icon && skill.icon} 
+                    <h3 className="text-lg font-bold">{skill.name}</h3>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
-      <div className='flex flex-col items-center m-4 w-[80px]'>
-        <img src={css} alt="CSS logo" />
-        <p>
-          CSS
-        </p>
-          </div>
-      <div className='flex flex-col items-center m-4 w-[80px] '>
-        <img src={js} alt="Js logo" />
-        <p>
-          JavaScript
-        </p>
-          </div>
-      <div className='flex flex-col items-center m-4 w-[80px] md:w-[80px]'>
-        <img src={tailwind} alt="Tailwind logo" />
-        <p>
-          Tailwind
-        </p>
-          </div>
-      <div className='flex flex-col items-center m-4 w-[80px] md:w-[80px]'>
-        <img src={react} alt="react logo" />
-        <p>
-          React
-        </p>
-          </div>
-      </div>
-
-    </div>
-  )
+        </section>
+      );
+    
 }
 
 export default Skills
