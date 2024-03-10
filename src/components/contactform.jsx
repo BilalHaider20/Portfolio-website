@@ -35,7 +35,7 @@ function Contactform() {
             </form>
           </div>
         </div>
-        <img   src={contactimage} alt="Contact us" className=" h-[400px] w-[80%] rounded-lg object-cover hidden md:block " />
+        <img   src={contactimage} alt="Contact us" className=" h-[400px] w-[80%] rounded-lg object-cover max-[768px]:hidden md:block " />
       </div>
     </div>
   );

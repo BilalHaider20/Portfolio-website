@@ -33,7 +33,7 @@ export default function Navbar() {
   return (
     <div className='bg-black h-[100px] text-gray-200 max-w-[100%] mx-auto flex justify-between items-center'>
       <h1 className='text-3xl primary-color font-bold ml-4'>Bilal Haider</h1>
-      <ul className='md:flex hidden  mr-10 gap-5 '>
+      <ul className='opacity-0 md:opacity-100 md:flex mr-10 gap-5 '>
         <li className='p-2 font-bold hover:text-red-500/80'>
           <a href="#">About</a>
         </li>
