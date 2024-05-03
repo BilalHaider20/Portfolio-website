@@ -27,7 +27,7 @@ function Hero() {
               <div className='text-white my-16'>
                   <a href={Resume} download="Bilal Haider Resume" className='w-full rounded-xl bg-gradient-to-br from-orange-400 to-pink-600
                  px-6 py-3 mr-4'>Download Resume</a> 
-                  <a href="#" className='w-full rounded-xl bg-gradient-to-br from-gray-600 to-gray-800
+                  <a href="mailto:haiderbilal306@gmail.com" className='w-full rounded-xl bg-gradient-to-br from-gray-600 to-gray-800
                  border-[1.5px] border-l-white
                  px-6 py-3 mr-4'>Contact</a> 
               </div>

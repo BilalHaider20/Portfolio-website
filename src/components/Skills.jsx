@@ -1,9 +1,4 @@
 import React from 'react'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import js from '../assets/javascript.png'
-import tailwind from '../assets/tailwind.png'
-import react from '../assets/react.png'
 import { FaCheckCircle } from "react-icons/fa";
 function Skills() {
   
@@ -12,8 +7,8 @@ function Skills() {
         { name: 'HTML & CSS' , icon: <FaCheckCircle className="h-6 w-6" /> },
         { name: 'Javascript', icon: <FaCheckCircle className="h-6 w-6" /> },
         { name: 'React', icon: <FaCheckCircle className="h-6 w-6" /> }, 
-        { name: 'Tailwind CSS', icon: <FaCheckCircle className="h-6 w-6" /> },
-        { name: 'WindowsForm C#', icon: <FaCheckCircle className="h-6 w-6" /> },
+        { name: 'Tailwind CSS', icon: <FaCheckCircle className="h-6 w-6" /> }
+        // { name: 'WindowsForm C#', icon: <FaCheckCircle className="h-6 w-6" /> },
        
       ];
     

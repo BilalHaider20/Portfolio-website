@@ -65,13 +65,13 @@ function AboutMe() {
               <p className="text-gray-400">Programming Courses: Object Oriented Programming, Data Structure and Algorithms</p>
             </li>
             <li>
-              <p className="text-gray-400">Programming Languages: C++, Java, JavaScript, Python</p>
+              <p className="text-gray-400">Programming Languages: C++, Java, JavaScript</p>
             </li>
             <li>
               <p className="text-gray-400">Frontend Frameworks: React</p>
             </li>
             <li>
-              <p className="text-gray-400">Databases: MsSQL Server</p>
+              <p className="text-gray-400">Databases: SQL Server</p>
             </li>
           </ul>
         </div>
