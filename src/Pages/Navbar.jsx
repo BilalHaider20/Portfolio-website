@@ -53,7 +53,7 @@ export default function Navbar() {
       <div
         className={
           nav
-            ? 'fixed h-screen overflow-auto left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500'
+            ? 'fixed h-screen overflow-auto left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500 z-10'
             : 'transition-all duration-500 ease-in-out fixed left-[-100%]'
         }
       >
