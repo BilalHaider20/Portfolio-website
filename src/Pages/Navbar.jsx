@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-
+import { NavLink } from 'react-router-dom';
 export default function Navbar() {
   const [nav, setNav] = useState(false);
 
@@ -35,13 +35,16 @@ export default function Navbar() {
       <h1 className='text-3xl primary-color font-bold ml-4'>Bilal Haider</h1>
       <ul className='opacity-0 md:opacity-100 md:flex mr-10 gap-5 '>
         <li className='p-2 font-bold hover:text-red-500/80'>
-          <a href="#">About</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li className='p-2 font-bold hover:text-red-500/80'>
-          <a href="#">Work</a>
+          <NavLink to="about">About</NavLink>
         </li>
         <li className='p-2 font-bold hover:text-red-500/80'>
-          <a href="#">Contact</a>
+          <NavLink to="work">Work</NavLink>
+        </li>
+        <li className='p-2 font-bold hover:text-red-500/80'>
+          <NavLink to="contact">Contact</NavLink>
         </li>
       </ul>
       <div onClick={handleNav} className='block md:hidden mr-4'>
@@ -57,13 +60,16 @@ export default function Navbar() {
         <h1 className='text-3xl primary-color m-4'>Bilal Haider</h1>
         <ul className='p-8 text-2xl'>
           <li className='p-2 hover:text-red-500/80'>
-            <a href="#" onClick={closeNav}>About</a>
+            <NavLink to="/" onClick={closeNav}>Home</NavLink>
           </li>
           <li className='p-2 hover:text-red-500/80'>
-            <a href="#" onClick={closeNav}>Work</a>
+            <NavLink to="about" onClick={closeNav}>About</NavLink>
           </li>
           <li className='p-2 hover:text-red-500/80'>
-            <a href="#" onClick={closeNav}>Contact</a>
+          <NavLink to="work" onClick={closeNav}>Work</NavLink>
+          </li>
+          <li className='p-2 hover:text-red-500/80'>
+          <NavLink to="contact" onClick={closeNav}>Contact</NavLink>
           </li>
         </ul>
       </div>
