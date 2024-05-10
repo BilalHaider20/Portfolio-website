@@ -1,7 +1,7 @@
 import React from 'react'
 import profileimage from '../assets/bilal.jpg'
 import { TypeAnimation } from 'react-type-animation'
-import Resume from '../assets/Bilal Resume.pdf'
+import Resume from '../assets/Bilal Haider Resume.pdf'
 
 function Hero() {
   return (
