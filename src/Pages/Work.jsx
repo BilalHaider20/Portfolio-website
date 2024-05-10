@@ -8,7 +8,7 @@ function Work() {
     {
       title: 'Password Generator',
       image:proj1,
-      description: 'Random Password Generator with customizable options upto 30 character length, with number and character inclusion',
+      description: 'Random Password Generator with customizable options upto 30 characters length, with number and character inclusion',
       github: 'https://github.com/BilalHaider20/Password-Generator/',
       link:'https://buildpassword.netlify.app/'
     },
