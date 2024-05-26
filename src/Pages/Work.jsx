@@ -1,10 +1,18 @@
 import React from 'react';
 import proj1 from '../assets/PasswordGenerator.png'
 import proj2 from '../assets/SnakeLadder.png'
-import proj3 from '../assets/Portfolio.jpg';
+import proj3 from '../assets/CurrencyConverter.png';
+import proj4 from '../assets/Portfolio.jpg';
 
 function Work() {
   const projects = [
+    {
+      title: 'Currency Converter',
+      image:proj3,
+      description: ' Developed a currency conversion application provides up-to-date conversion rates',
+      github: 'https://github.com/BilalHaider20/CurrencyConverter',
+      link:'https://convertingcurrency.netlify.app/'
+    },
     {
       title: 'Password Generator',
       image:proj1,
@@ -19,9 +27,10 @@ function Work() {
       github: 'https://github.com/BilalHaider20/SnakeLadderGame.github.io/',
       link:'https://snake-and-laddergame.netlify.app/'
     },
+    
     {
       title: 'Portfolio',
-      image: proj3,
+      image: proj4,
       description:'It is a responsive website made with HTML ,CSS and Javascript',
       github:'https://github.com/BilalHaider20/Portfolio-website',
       link: 'https://bilalhaider20.github.io/portfolio/'
