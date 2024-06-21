@@ -5,8 +5,8 @@ import Resume from '../assets/Bilal Haider Resume.pdf'
 
 function Hero() {
   return (
-      <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-[100vw] md:h-screen mx-auto bg-black'>
-          <div className='col-span-1 my-auto mx-auto w-[200px] h-auto lg:w-[300px]'>
+      <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-[100vw] h-[400px] md:h-[500px] mx-auto bg-black'>
+          <div className='col-span-1 mx-auto my-auto w-[200px] lg:w-[300px]'>
               
             <img src={profileimage} alt="Profile Image"/>
               
@@ -15,8 +15,8 @@ function Hero() {
               <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl font-bold mt-12'>
                   <span className='primary-color'>I'm a</span><br />
                   <TypeAnimation sequence={
-                      ["Frontend Dev", 1000,
-                          "Software Dev", 1000,
+                      ["Full Stack Dev", 1000,
+                          "Web Dev", 1000,
                       ]
                    }
                       wrapper="span"
@@ -24,14 +24,14 @@ function Hero() {
                       repeat={Infinity}
                   /> 
               </h1>
-              <div className='text-white my-16'>
+              {/* <div className='text-white my-16'>
                   <a href={Resume} download="Bilal Haider Resume" className='w-full rounded-xl bg-gradient-to-br from-orange-400 to-pink-600
                  px-6 py-3 mr-4'>Download Resume</a> 
                   <a href="mailto:haiderbilal306@gmail.com" className='w-full rounded-xl bg-gradient-to-br from-gray-600 to-gray-800
                  border-[1.5px] border-l-white
                  px-6 py-3 mr-4'>Contact</a> 
-              </div>
-              <ul className="flex text-4xl md:text-5xl w-[50%] gap-5 justify-start ">
+              </div> */}
+              <ul className="flex text-4xl md:text-5xl w-[50%] gap-5 justify-start my-10 lg:mt-16">
           <li className="bg-primary-color rounded-md hover:scale-110 transition-scale duration-300 ease-in-out
         ">
               <a href="https://github.com/BilalHaider20" target="_blank" rel="noreferrer" >
