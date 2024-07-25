@@ -7,7 +7,9 @@ function Skills() {
         { name: 'HTML & CSS' , icon: <FaCheckCircle className="h-6 w-6" /> },
         { name: 'Javascript', icon: <FaCheckCircle className="h-6 w-6" /> },
         { name: 'React', icon: <FaCheckCircle className="h-6 w-6" /> }, 
-        { name: 'Tailwind CSS', icon: <FaCheckCircle className="h-6 w-6" /> }
+        { name: 'React Native', icon: <FaCheckCircle className="h-6 w-6" /> },
+        { name: 'Tailwind CSS', icon: <FaCheckCircle className="h-6 w-6" /> },
+        { name: 'Redux', icon: <FaCheckCircle className="h-6 w-6" /> },
         // { name: 'WindowsForm C#', icon: <FaCheckCircle className="h-6 w-6" /> },
        
       ];
